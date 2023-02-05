@@ -2,7 +2,7 @@ import openai
 
 
 class chat_api:
-    
+
     def __init__(self, questions: str, max_word: int, temp: float):
 
         self.question = questions
@@ -11,7 +11,7 @@ class chat_api:
 
     def ask_question(self):
 
-        openai.api_key = "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"
+        openai.api_key = "openai api key"
 
         response = openai.Completion.create(
             model="text-davinci-003",
@@ -24,4 +24,3 @@ class chat_api:
         )
 
         return response
-
