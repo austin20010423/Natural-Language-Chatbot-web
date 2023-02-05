@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="static/style/style.css">
+    </head>
+    <body>
+        <header>Natural Language Chatbot</header>
+        <img class="chatbot" src="https://www.sendinblue.com/wp-content/uploads/2022/06/what_is_chatbot_fb.png" width="200" height="120">
+        <form method='post' action="form">
+            <div class="idea">
+                <p>Powered by OpenAI API from <a href="https://openai.com/api/">https://openai.com/api/</a></p>
+            </div>
+            <div class="para">
+                <p>Capability: gave generally answer like a normal person</p>
+                <p>How to use: enter a question below the text area, the bot will gave an answer to you</p>
+                <p>ex. How are you?</p>
+                <p>Nature language process model: text-davinci-003</p>
+            </div>
+            <div class="input">
+                <label for="ask">
+                    <textarea name="questions" id="questions" cols="50" rows="4"style="background-color: #DEDEDE" placeholder="Enter your questions here..."></textarea>
+                </label>
+                <label for="submit" class="submit">
+                    <br><button type='submit'>Submit</button>
+                </label>
+            </div>
+            <div class="output">
+                <p>Answer</p>
+                {{answer}}
+            </div>
+        </form>
+    </body>
+    <footer>
+        Copyright © 2023 tuna international inc.
+    </footer>
+</html>
