@@ -1,4 +1,4 @@
-# Natural Language Chatbot web
+# Natural Language Chatbot Web
 - api from openai : https://openai.com/api/
 
 ## Flask 
