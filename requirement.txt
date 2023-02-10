@@ -1,0 +1,3 @@
+openai
+flask==2.2.2
+os
