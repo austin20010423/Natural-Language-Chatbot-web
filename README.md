@@ -2,7 +2,7 @@
 - api from openai : https://openai.com/api/
 
 ## Flask 
-- use flask framework to build web 
+- use python flask framework to build web 
 
 ## interaction 
 - enter question to ask bot in the text area 
