@@ -1,4 +1,5 @@
 import openai
+import os
 
 
 class chat_api:
@@ -11,7 +12,7 @@ class chat_api:
 
     def ask_question(self):
 
-        openai.api_key = "openai api key"
+        openai.api_key = os.getenv('OPENAI_API_KEY')
 
         response = openai.Completion.create(
             model="text-davinci-003",
