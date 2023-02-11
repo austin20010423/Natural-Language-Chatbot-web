@@ -7,10 +7,6 @@
         {
              "src": "api/templates/form.html",
              "use": "@vercel/html"
-        },
-        {
-              "src": "api/static/style/style.css",
-              "use": "@vercel/css"
         }
     ],
     "routes": [
